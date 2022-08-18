@@ -1,0 +1,5 @@
+<h1>Random Color Generator</h1>
+
+<div class="container">
+    <div class="color-container" *ngFor="let item of colorArray" [ngStyle]="{'background-color': item}">{{item}}</div>
+</div>
